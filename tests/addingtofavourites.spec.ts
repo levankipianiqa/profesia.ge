@@ -9,4 +9,6 @@ test('add profession to favourites', async ({ page }) => {
     
     // Assert that the heart element is visible
     await expect(page.locator('div[class="PS-heart-div"][data-id="7"]')).toBeVisible();
+
+    
 });
